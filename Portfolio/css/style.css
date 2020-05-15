@@ -1,0 +1,584 @@
+body {
+    background: #270F34;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    height: 980px;
+    background: url('../images/hdbk.jpeg') no-repeat;
+    background-size: cover;
+    /* filter: opacity(0.35); */
+
+}
+
+.headerOpacity {
+    height: 980px;
+    background: linear-gradient(130.39deg, rgba(39, 15, 52, 0.8) 19.17%, rgba(39, 15, 10.8) 96.61%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.headerContainer {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 65px;
+    height: 59px;
+    padding-left: 120px;
+    padding-top: 40px;
+
+    font-family: Scriptorama;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 50px;
+    /* or 139% */
+
+    display: flex;
+    align-items: center;
+
+}
+
+.logo a {
+    text-decoration: none;
+    color: #C26793;
+}
+
+.menu {
+    max-width: 580px;
+    height: 32px;
+    float: right;
+    margin-top: -30px;
+}
+
+.menu ul {
+    display: flex;
+    float: right;
+}
+
+.menu li {
+    padding: 0 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 21px;
+    /* identical to box height */
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+
+.menu li:hover {
+    color: #C26893;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #C26893;
+}
+
+.screenWrap {
+    max-width: 518px;
+    height: 405px;
+    margin: 0 auto;
+    margin-top: 240px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.screenWrap p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 50px;
+    /* identical to box height, or 104% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.07em;
+
+    color: #FFFFFF;
+}
+
+.screenWrap h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 40px;
+    /* or 143% */
+
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+    margin-top: 44px;
+}
+
+.social {
+    width: 380px;
+    font-family: Font Awesome 5 Brands;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+
+
+    margin-top: 82px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.social a:hover,
+.mail a:hover,
+.phone a:hover {
+    color: #CC2689;
+}
+
+.buttonWrap button {
+    width: 316px;
+    height: 68px;
+    border: 2px solid #CC2689;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background: none;
+    font-family: Roboto;
+
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #CC2689;
+    margin-top: 82px;
+}
+
+.arrowDown {
+    width: 108px;
+    height: 96px;
+    margin: 0 auto;
+    padding-top: 180px;
+    animation-name: move;
+    animation-duration: 1s;
+    animation-iteration-count: 100;
+
+}
+
+@keyframes move {
+
+    from {
+        padding-top: 180px;
+    }
+
+    to {
+        padding-top: 190px;
+    }
+}
+
+
+
+.lineLeft {
+    width: 64px;
+    border: 1px solid #CC2689;
+    transform: matrix(0.7, 0.57, -0.91, 0.69, 0, 0);
+    float: left;
+}
+
+.lineRight {
+    width: 60px;
+    border: 1px solid #CC2689;
+    transform: matrix(-0.7, 0.57, -0.91, -0.69, 0, 0);
+    float: right;
+}
+
+/**********************************************************************/
+
+
+.skillsContainer {
+
+    height: 402px;
+    background-color: #FFFFFF;
+}
+
+.skillsWrap {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 83px;
+    justify-content: space-between;
+}
+
+.development,
+.design,
+.wordpress,
+.support {
+    height: 235px;
+    width: 288px;
+    text-align: center;
+}
+
+.skillsWrap i {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 119.18%;
+    text-align: center;
+    color: #CC2689;
+}
+
+.skillsWrap h2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 119.18%;
+    text-align: center;
+    color: #0E1D3A;
+    padding-top: 24px;
+}
+
+.skillsWrap p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+    padding-top: 22px;
+}
+
+/*********************************************************/
+.portfolioContainer {
+    height: 970px;
+    background: #1E0D26;
+}
+
+.portfolioWrap {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.myWorks {
+    max-width: 1320px;
+    height: 536px;
+    margin: 0 auto;
+
+}
+
+.portfolioWrap h3 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 57px;
+    letter-spacing: 0.1em;
+    color: #CC2689;
+    padding-top: 77px;
+    margin-left: 390px;
+}
+
+.portfolioSlider {
+    display: flex;
+    margin-top: 124px;
+}
+
+.portfolioSlider img {
+    max-width: 800px;
+    height: 536px;
+}
+
+.description {
+    max-width: 416px;
+    padding: 60px 0 0 80px;
+
+}
+
+.description a {
+    color: #CC2689;
+    font-size: 20px;
+}
+
+.portfolioSlider h4 {
+    color: #fff;
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 49px;
+    max-width: 420px;
+}
+
+.portfolioSlider p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 187% */
+
+
+    color: #FFFFFF;
+    padding-top: 50px;
+    max-width: 380px;
+
+}
+
+.description button {
+    margin-top: 50px;
+}
+
+button:hover {
+    background-color: #CC2689;
+    color: #270F34;
+}
+
+.busines,
+.blueasy,
+.ideaBud {
+    display: none;
+}
+
+.dots {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.dots>div {
+    width: 17px;
+    height: 9px;
+    border: 1px solid #FC5DA9;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-top: 100px;
+
+}
+
+/*******************************************************************************/
+.contactContainer {
+    height: 720px;
+    background: url('../images/laptop-3076957.jpg') no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.contactContainerWrap {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.contactMe {
+    max-width: 238px;
+    margin-left: 212px;
+}
+
+.contactContainer h4 {
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 57px;
+    letter-spacing: 0.1em;
+    color: #CC2689;
+    margin-left: 390px;
+    padding-top: 77px;
+
+}
+
+.bgOpacity {
+    background: linear-gradient(0deg, rgba(43, 12, 61, 0.95), rgba(43, 12, 61, 0.95));
+    opacity: 95%;
+    height: 720px;
+
+}
+
+.forContent {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/*********************************form*********************/
+.contactForm {
+
+    max-width: 600px;
+    height: 314px;
+    margin-top: 40px;
+    margin-right: 120px;
+}
+
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+
+.contactMe p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 119.18%;
+
+
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+
+}
+
+p.contact {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 114px;
+}
+
+.contactMe a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-left: 30px;
+}
+
+.contactMe i {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.contactMe .social {
+    width: 232px;
+    margin-top: 0;
+}
+
+.social a {
+
+    font-size: 24px;
+
+}
+
+.mail,
+.phone,
+.local {
+    margin-top: 48px;
+    display: flex;
+}
+
+.local p {
+    margin-left: 30px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    background: none;
+    border: none;
+    color: white;
+    /* text-decoration: none; */
+    border-bottom: 1px solid azure;
+    padding-top: 60px;
+    box-sizing: border-box;
+    font-family: Open Sans;
+}
+
+input[type=submit] {
+    width: 316px;
+    height: 68px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background: none;
+    font-family: Open Sans;
+
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #fff;
+    margin-top: 82px;
+
+}
+
+input[type=submit]:hover {
+    background-color: #CC2689;
+    border: 2px solid #CC2689;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #C26793;
+}
+
+.contactForm label {
+    color: #FFFFFF;
+    font-family: Open Sans;
+}
+
+/***************footer******************************/
+footer {
+    height: 220px;
+    background-color: #1E0D26;
+}
+
+.footerWrap {
+    width: 232px;
+    margin: 0 auto;
+}
+
+.footerLogo .logo {
+    font-size: 36px;
+    line-height: 50px;
+    /* or 139% */
+
+    display: flex;
+    align-items: center;
+}
+
+.footerWrap .logo {
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+.footerWrap .social {
+    font-size: 12px;
+    width: 232px;
+    margin-top: 20px;
+    line-height: 18px;
+}
+
+.made p {
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 30px;
+
+}
